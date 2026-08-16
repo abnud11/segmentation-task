@@ -107,7 +107,7 @@ trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=train_ds,
-    eval_dataset=test_ds,
+    eval_dataset=val_ds,
     compute_metrics=compute_metrics,
 )
 
